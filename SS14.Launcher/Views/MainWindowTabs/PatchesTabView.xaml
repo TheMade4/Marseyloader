@@ -121,10 +121,14 @@
         </TabItem>
       </TabControl>
       <StackPanel Orientation="Horizontal" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Right">
-        <Button Content="Open mod directory" Margin="4, 0" HorizontalAlignment="Right"
-                Command="{Binding OpenPatchDirectoryCommand}" Height="30"/>
-        <Button Content="Recheck mods" Margin="4, 0" HorizontalAlignment="Right"
-                Command="{Binding ReloadModsCommand}" Height="30"/>
+        <DockPanel LastChildFill="True">
+          <TextBlock Text="Patches are unsandboxed, run at own risk."
+                     VerticalAlignment="Bottom" FontWeight="Bold" HorizontalAlignment="Center" DockPanel.Dock="Left"/>
+          <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="Open mod directory" Margin="4, 0" Command="{Binding OpenPatchDirectoryCommand}" Height="30"/>
+            <Button Content="Recheck mods" Margin="4, 0" Command="{Binding ReloadModsCommand}" Height="30"/>
+          </StackPanel>
+        </DockPanel>
       </StackPanel>
     </Grid>
   </ScrollViewer>

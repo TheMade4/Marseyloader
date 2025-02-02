@@ -10,7 +10,7 @@
     <DefineConstants Condition="'$(FullRelease)' == 'True'">FULL_RELEASE;$(DefineConstants)</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>CA1416</NoWarn>
-    <Version>0.28.1</Version>
+    <Version>0.29.1</Version>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="**\*.xaml.cs">
@@ -89,6 +89,11 @@
   </ItemGroup>
   <ItemGroup>
     <PackageVersion Update="Avalonia.Themes.Simple" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\Marsey\Lib\0Harmony.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="..\MSBuild\Robust.Trimming.targets" />
 </Project>

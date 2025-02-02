@@ -5,6 +5,7 @@ using Marsey.Config;
 using Marsey.Game.Patches.Marseyports.Attributes;
 using Marsey.Misc;
 using Marsey.Stealthsey;
+using Marsey.Stealthsey.Reflection;
 
 namespace Marsey.Game.Patches.Marseyports;
 
@@ -14,10 +15,10 @@ namespace Marsey.Game.Patches.Marseyports;
 public static class MarseyPortMan
 {
     public static string fork = "";
-    public static Version engine = new Version();
+    public static string engine = string.Empty;
     private static IEnumerable<Type>? _backports;
 
-    public static void SetEngineVer(string eng) => engine = new Version(eng);
+    public static void SetEngineVer(string eng) => engine = eng;
     public static void SetForkID(string forkid) => fork = forkid;
 
     public static void Initialize()
@@ -66,6 +67,7 @@ public static class MarseyPortMan
         return true;
     }
 
+    [Patching]
     public static void PatchBackports(bool Content = false)
     {
         if (_backports == null) return;
