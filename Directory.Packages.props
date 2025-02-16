@@ -28,7 +28,7 @@
     <PackageVersion Include="ReactiveUI" Version="20.1.1" />
     <PackageVersion Include="ReactiveUI.Fody" Version="19.5.41" />
     <PackageVersion Include="Robust.Shared.AuthLib" Version="0.1.2" />
-    <PackageVersion Include="Serilog" Version="4.0.0-dev-02174" />
+    <PackageVersion Include="Serilog" Version="4.2.0" />
     <PackageVersion Include="Serilog.Sinks.Console" Version="5.1.0-dev-00943" />
     <PackageVersion Include="Serilog.Sinks.File" Version="5.0.1-dev-00972" />
     <PackageVersion Include="XamlNameReferenceGenerator" Version="1.6.1" />
