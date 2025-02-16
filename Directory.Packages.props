@@ -38,7 +38,7 @@
     <PackageVersion Include="SpaceWizards.Sodium" Version="0.2.1" />
     <!-- Test stuff -->
     <PackageVersion Include="nunit" Version="3.13.3" />
-    <PackageVersion Include="NUnit.Analyzers" Version="3.6.1" />
+    <PackageVersion Include="NUnit.Analyzers" Version="4.6.0" />
     <PackageVersion Include="NUnit3TestAdapter" Version="4.4.2" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
     <PackageVersion Include="Microsoft.NET.ILLink.Tasks" Version="8.0.5" />
