@@ -32,7 +32,7 @@
     <PackageVersion Include="Serilog.Sinks.Console" Version="5.1.0-dev-00943" />
     <PackageVersion Include="Serilog.Sinks.File" Version="5.0.1-dev-00972" />
     <PackageVersion Include="XamlNameReferenceGenerator" Version="1.6.1" />
-    <PackageVersion Include="YamlDotNet" Version="15.1.4" />
+    <PackageVersion Include="YamlDotNet" Version="16.3.0" />
     <PackageVersion Include="TerraFX.Interop.Windows" Version="10.0.26100.1" />
     <PackageVersion Include="Mono.Posix.NETStandard" Version="5.20.1-preview" />
     <PackageVersion Include="SpaceWizards.Sodium" Version="0.2.1" />
