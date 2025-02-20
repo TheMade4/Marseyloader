@@ -12,7 +12,7 @@
     <PackageVersion Include="NP.Ava.Visuals" Version="1.0.5" />
     <PackageVersion Include="NSec.Cryptography" Version="24.5.0-preview.1" />
     <PackageVersion Include="SharpZstd.Interop" Version="1.5.5-beta1" />
-    <PackageVersion Include="JetBrains.Annotations" Version="2024.2.0" />
+    <PackageVersion Include="JetBrains.Annotations" Version="2024.3.0" />
     <!-- Loader -->
     <PackageVersion Include="Robust.Natives" Version="0.1.1" />
     <!-- Launcher -->
